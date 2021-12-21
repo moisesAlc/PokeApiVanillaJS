@@ -121,7 +121,7 @@ componenteTipos = function (tipos) {
         divTipo.classList.add('col', 'tipo', tipo, 'fundo-apagado-leve', 'd-flex', 'd-flex-row', 'me-3', 'align-items-center')
 
         spanTipo = document.createElement('span')
-        spanTipo.classList.add('col', 'text-light', 'fs-5')
+        spanTipo.classList.add('col', 'text-light', 'fonte-pixelade', 'fs-5')
         spanTipo.innerText = dicionario_de_tipos[tipo]
 
         divTipo.appendChild(imgTipo)

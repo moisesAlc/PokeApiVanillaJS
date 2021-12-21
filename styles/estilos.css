@@ -5,9 +5,16 @@
 @font-face {
     font-family: 'PokemonGB';
     src: url('../fonts/Pokemon\ GB.ttf')  format('truetype');
-  }
+}
+@font-face {
+    font-family: 'Pixelade';
+    src: url('../fonts/Pixelade.ttf')  format('truetype');
+}
   body{
-    font-family: 'PokemonGB';
+    font-family: 'Pixelade';
+  }
+  .fonte-pixelade{
+    font-family: 'Pixelade';
   }
 
 /*                            */
