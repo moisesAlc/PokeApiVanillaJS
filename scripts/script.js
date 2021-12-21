@@ -46,6 +46,8 @@ adicionaPokemons = function () {
 inicia = function () {
     input = document.querySelector('[data-input]');
     input.addEventListener('input', () => {
+        if (input.value.length > 0) input.classList.add('maiusculo')
+        else input.classList.remove('maiusculo')
         pokes = document.querySelectorAll('[data-pokemon-nome]')
         pokes.forEach(compPokemon => {
             if (!compPokemon.dataset.pokemonNome.includes(input.value)) {
@@ -75,6 +77,7 @@ extraiPokemonDeJSON = function (resultadoEmJSON) {
     pokemon.id = resultadoEmJSON.id;
     pokemon.nome = resultadoEmJSON.name;
     pokemon.imagemURL = resultadoEmJSON.sprites.other["official-artwork"].front_default;
+    // pokemon.imagemURL = resultadoEmJSON.sprites.other["dream_world"].front_default;
     pokemon.stats = {}
     pokemon.stats.hp = resultadoEmJSON.stats[0].base_stat
     pokemon.stats.ataque = resultadoEmJSON.stats[1].base_stat

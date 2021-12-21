@@ -7,11 +7,13 @@ componentePokemon = function (pokemon) {
     divPokemonInterna.appendChild(componenteImagem(pokemon.imagemURL))
 
     divPokemonExterna = document.createElement('div')
-    divPokemonExterna.classList.add('col', 'shadow', 'arredondado', 'me-4', pokemon.tipos[0], 'apagado', 'mb-4')
+    divPokemonExterna.classList.add('col','mx-4','shadow', 'arredondado', pokemon.tipos[0], 'apagado', 'mb-4')
     divPokemonExterna.setAttribute('id', pokemon.id)
     divPokemonExterna.setAttribute('data-pokemon-nome', pokemon.nome)
     divPokemonExterna.appendChild(divPokemonInterna)
     divPokemonExterna.setAttribute('data-pokemon-id', pokemon.id)
+    divPokemonExterna.setAttribute('style', 'min-width: 672px')
+
 
     return divPokemonExterna
 
@@ -19,7 +21,7 @@ componentePokemon = function (pokemon) {
 
 componenteId = function (id) {
     compId = document.createElement('div')
-    compId.classList.add('col', 'd-flex', 'align-items-end', 'fs-3', 'escuro', `text-${pokemon.tipos[0]}`, 'text-poke')
+    compId.classList.add('col', 'd-flex', 'align-items-center', 'fs-3', 'text-white', )
     compId.innerText = `# ${id}`
     return compId
 }
@@ -27,7 +29,7 @@ componenteId = function (id) {
 componenteNome = function (nome) {
     compNome = document.createElement('div')
     compNome.classList.add(
-        'col', 'd-flex', 'align-items-center', 'text-white', 'fs-1', 'fonte-grande')
+        'col', 'escuro', 'fs-1', 'fonte-grande', 'text-poke', `text-${pokemon.tipos[0]}`)
     compNome.innerText = `${nome[0].toUpperCase() + nome.substring(1)}`
     return compNome
 }
@@ -139,7 +141,8 @@ componenteImagem = function (urlImagem) {
     divImg.classList.add('col', 'd-flex', 'justify-content-end')
 
     imgPokemon = document.createElement('img')
-    imgPokemon.classList.add('img-pokemon')
+    imgPokemon.classList.add('img-pokemon', )
+    imgPokemon.classList.add('mx-auto','d-block')
     imgPokemon.src = urlImagem
     imgPokemon.setAttribute('width', '200px')
 
