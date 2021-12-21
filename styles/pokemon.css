@@ -1,0 +1,176 @@
+/*                            */
+/*         Img Pokemon        */
+/*                            */
+    .img-pokemon{
+        position: absolute;
+        top: -45px;
+        right: 16px;
+        filter: grayscale(1);
+        height: 280px;
+        width: 280px;
+        transition: 0.6s ease-in-out;
+    }
+    .img-pokemon:hover{
+        filter: grayscale(0);
+        top: -30px;
+    }
+    .img-fundo{
+        width: 200px
+    }
+
+/*                            */
+/*   Cor de Fundo Pokémons    */
+/*                            */
+
+    .bug {
+        background-color: #83C300;
+    }
+
+    .dark {
+        background-color: #5B5466;
+    }
+
+    .dragon {
+        background-color: #006FC9;
+    }
+
+    .electric {
+        background-color: #FBD100;
+    }
+
+    .fairy {
+        background-color: #FB89EB;
+    }
+
+    .fighting {
+        background-color: #E0306A;
+    }
+
+    .fire {
+        background-color: #FF9741;
+    }
+
+    .flying {
+        background-color: #89AAE3;
+    }
+
+    .ghost {
+        background-color: #4C6AB2;
+    }
+
+    .grass {
+        background-color: #38BF4B;
+    }
+
+    .ground {
+        background-color: #E87236;
+    }
+
+    .ice {
+        background-color: #4CD1C0;
+    }
+
+    .normal {
+        background-color: #919AA2;
+    }
+
+    .poison {
+        background-color: #B567CE;
+    }
+
+    .psychic {
+        background-color: #FF6675;
+    }
+
+    .rock {
+        background-color: #C8B686;
+    }
+
+    .steel {
+        background-color: #5A8EA2;
+    }
+
+    .water {
+        background-color: #3692DC;
+    }
+
+/*                            */
+/*   Cor de Texto Pokémons    */
+/*                            */
+
+    .texto-escuro {
+        color: rgba(23, 23, 27, 0.6);
+    }
+
+    .text-bug {
+        color: #83C300;
+    }
+
+    .text-dark {
+        color: #5B5466;
+    }
+
+    .text-dragon {
+        color: #006FC9;
+    }
+
+    .text-electric {
+        color: #FBD100;
+    }
+
+    .text-fairy {
+        color: #FB89EB;
+    }
+
+    .text-fighting {
+        color: #E0306A;
+    }
+
+    .text-fire {
+        color: #FF9741;
+    }
+
+    .text-flying {
+        color: #89AAE3;
+    }
+
+    .text-ghost {
+        color: #4C6AB2;
+    }
+
+    .text-grass {
+        color: #38BF4B;
+    }
+
+    .text-ground {
+        color: #E87236;
+    }
+
+    .text-ice {
+        color: #4CD1C0;
+    }
+
+    .text-normal {
+        color: #919AA2;
+    }
+
+    .text-poison {
+        color: #B567CE;
+    }
+
+    .text-psychic {
+        color: #FF6675;
+    }
+
+    .text-rock {
+        color: #C8B686;
+    }
+
+    .text-steel {
+        color: #5A8EA2;
+    }
+
+    .text-water {
+        color: #3692DC;
+
+    }

@@ -1,0 +1,58 @@
+/*                            */
+/*          Poké-Bola         */
+/*                            */
+
+    .poke-bola{
+        height: 40px;
+    }
+
+
+/*                            */
+/*           Formas           */
+/*                            */
+
+    .arredondado {
+        border-radius: 1.5rem;
+    }
+    .tipo{
+        border-radius: 0.4rem;
+    }
+
+/*                            */
+/*          Tamanhos          */
+/*                            */
+
+    .fonte-grande{
+        font-size: 3.1rem !important;
+    }
+    .img-tipo{
+        height: 3rem !important;
+    }
+    input{
+        font-size: larger;
+    }
+
+/*                            */
+/*           Cores            */
+/*                            */
+
+    .fundo-apagado {
+        backdrop-filter: grayscale(0.4);
+    }
+    .fundo-apagado-leve {
+        filter: grayscale(0.1);
+    }
+    .text-poke{
+        filter: brightness(40%);
+    }
+    .btn-outline-secondary{
+        background-color: white;
+        border: 2px solid rgb(184, 32, 32);
+        color: rgb(184, 32, 32);
+        transition: 0.4s ease-in-out;
+    }
+    .btn-outline-secondary:hover{
+        background-color: rgb(184, 32, 32);
+        border: 2px solid white;
+        color: white;
+    }
