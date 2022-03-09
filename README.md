@@ -1,7 +1,7 @@
 # PokeApiVanillaJS
 
 <h1 align="left">
-  <img alt="PokeAPI" title="PokeAPI" src="capa.png" width="600em"/>
+  <img alt="PokeAPI" title="PokeAPI" src="capa.png" width="50%"/>
 </h1>
 
 ## 🔖 Features
