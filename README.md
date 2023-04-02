@@ -4,7 +4,7 @@
   <a href="https://gorgeous-figolla-e64da4.netlify.app/"><img alt="PokeAPI" title="PokeAPI" src="capa.png" width="50%"/></a>
 </h1>
 
-## <a href="https://gorgeous-figolla-e64da4.netlify.app/">Clique aqui para acessar</a>
+## Clique <a href="https://gorgeous-figolla-e64da4.netlify.app/">aqui</a> para acessar
 ## 🔖 Features
 
 - [✔] Carrega informações da API de 3 em 3;
